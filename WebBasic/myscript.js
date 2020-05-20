@@ -65,9 +65,14 @@ document.querySelector("button").addEventListener("click", (event) => {
     //console.log("Button Was Clicked");
     event.target.textContent = "Hey, I am Hacker";
     //console.log(event.target.textContent = "Hey I am Hacker");
-    
-    
 });
+
+//Track input form
+//ahiya input na badle change lakhi sakay e text ma lakhya pachi kya pan click kariye to console ma print thase
+document.querySelector("#myform").addEventListener("input", (event) => {
+    console.log(event.target.value);
+    
+})
 
 
 
